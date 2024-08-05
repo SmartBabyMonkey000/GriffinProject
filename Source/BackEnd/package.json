@@ -1,0 +1,23 @@
+{
+  "name": "phoenix_lottery",
+  "version": "1.0.0",
+  "description": "This is a phoenix lottery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "H",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "sync-mysql": "^3.0.1",
+    "web3": "^1.7.1"
+  }
+}

@@ -1,0 +1,151 @@
+.tiers {
+    flex-direction: column;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: url('/src/assets/griffin-header-bg-top-2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.tiersHolder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+.tiers .flex__center {
+    align-items: flex-start;
+}
+#tiers h2.sectionTitle {
+    margin-bottom: 2%;
+    font-size: 48px;
+    font-family: 'MedievalSharp', sans-serif;
+    letter-spacing:3px;
+    color:white;
+    text-align:center;
+}
+.tiers p {
+    color:white;
+}
+.griffinNfts img {
+    margin-left: 8%;
+}
+
+.tierBox {
+    border-radius:5px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    padding: 0px 40px 30px 40px;
+    /* gradient */
+    background: rgb(61,61,61);
+    background: -moz-linear-gradient(148deg, rgba(61,61,61,1) 0%, rgba(27,27,27,1) 50%);
+    background: -webkit-linear-gradient(148deg, rgba(61,61,61,1) 0%, rgba(27,27,27,1) 50%);
+    background: linear-gradient(148deg, rgba(61,61,61,1) 0%, rgba(27,27,27,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3d3d3d",endColorstr="#1b1b1b",GradientType=1);
+    /* box shadow */
+    -webkit-box-shadow: 0px 0px 24px -7px #A46026; 
+    box-shadow: 0px 0px 24px -7px #A46026;
+}
+.hiddenBox {
+    opacity: 0.47;
+    position: relative;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.hiddenBox:hover:after {
+    content: 'NOT ACTIVATED';
+    color: #fff;
+    display: flex;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(61,61,61);
+    background: linear-gradient(148deg, rgba(61,61,61,1) 0%, rgba(27,27,27,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3d3d3d",endColorstr="#1b1b1b",GradientType=1);
+    box-shadow: 0px 0px 24px -7px #a46026;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hiddenBox:hover {
+    opacity:1;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.tierBox h4 {
+    font-family: 'MedievalSharp', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.tierTitle {
+    color: #f09434;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.tierInfo {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 50px;
+}
+
+.tiersInfo div {
+    margin-bottom: 30px;
+}
+
+.tiersInfo {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.draftWinners {
+    font-size: 26px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.nextTier {
+    margin-bottom: 50px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.glide__arrow {
+    background-color: #c73333;
+    border: 2px solid rgb(199 51 51);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .glide__arrow {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+#tiers .sectionTitle {
+    padding-bottom: 60px;
+}
+.hiddenBox:hover:after {
+    font-size: 24px;
+}
+}

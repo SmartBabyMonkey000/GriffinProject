@@ -1,0 +1,58 @@
+.griffinInfo {
+    flex-direction: column;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: url('/src/assets/griffin-header-bg-top.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.griffinInfo .flex__center {
+    align-items: flex-start;
+    padding: 0 5%;
+}
+h2.sectionTitle {
+    margin-bottom: 5%;
+    font-size: 48px;
+    font-family: 'MedievalSharp', sans-serif;
+    letter-spacing:3px;
+    color:white;
+    text-align:center;
+}
+.griffinInfo p {
+    font-family: 'MedievalSharp', sans-serif;
+    color:white;
+    line-height:30px;
+}
+.griffinNfts img {
+    margin-left: 8%;
+    width: 92%;
+}
+.app__aboutus-content_about.griffinNfts a {
+    margin-top: 60px;
+    margin-left: 8%;
+}
+
+.app__aboutus-content_about.griffinNfts {
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 900px) {
+.app__aboutus-content_about.griffinNfts {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.app__aboutus-content_about.griffinNfts img {
+    margin-left: 0;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+    .griffinInfo p {
+        line-height: 26px;
+    }
+}

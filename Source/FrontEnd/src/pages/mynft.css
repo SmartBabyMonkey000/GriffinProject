@@ -1,0 +1,70 @@
+.myNFTPage {
+    min-height:800px;
+    background-color: var(--color-black);
+    background-image: url('/src/assets/griffin-header-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    padding-bottom: 400px;
+}
+.myNFTHolder {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding-top: 140px;
+    max-width: 90%;
+    margin: 0 auto;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:22px;
+    line-height: 30px;
+}
+
+.mynfts {
+    margin-bottom: 100px;
+}
+
+.mynfts h1 {
+    font-family: 'MedievalSharp', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.imageWinner {
+    flex-direction: column;
+    display: flex;
+}
+.imageWinner > img {
+    width: 230px;
+    height: 230px;
+}
+
+.nftStatus.active {
+    background: #b5722d;
+    text-align: center;
+    border: 2px dashed #dc964f;
+    outline: 2px solid #b5722d;
+}
+.nftStatus.inactive {
+    background: #1c1c1c;
+    text-align: center;
+    border: 2px dashed #353535;
+    outline: 2px solid #1c1c1c;
+}
+.payFees {
+    background: #1c1c1c;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.payFees:hover {
+    background: #b5722d;
+}
+a.seeAttrb:hover {
+    background: #b5722d;
+}
+a.seeAttrb {
+    background: black;
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+.app__header {
+    background-color: var(--color-black);
+    background-image: url('/src/assets/griffin-footer-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+    transform: translate(0, 0);
+    -webkit-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
+    text-align:center;
+}
+.app__header-h1:hover {
+    -webkit-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
+    transform: translate(0px, -12px);
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+.headerSubheading {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px -4px 11px #000000;
+    text-align: center;
+}
+.custom__button.arrowDown:hover {
+    background: #b5722d;
+}
+
+.custom__button.arrowDown {
+    color: white;
+    font-size: 40px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* flying griffins */
+
+.firstFly {
+    position: absolute;
+    left: 14%;
+    bottom: -200px;
+}
+.firstFly img {
+    max-width: 105px;
+}
+.secondFly {
+    position: absolute;
+    right: 14%;
+    filter: blur(2px);
+    bottom: -140px;
+}
+.secondFly img {
+    max-width: 530px;
+}
+.thirdFly {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.fourthFly {
+    position: absolute;
+    right: 14%;
+    bottom: 224px;
+}
+.fourthFly img {
+    max-width: 329px;
+    transform: rotate(340deg) !important;
+}
+
+
+
+.bounce {
+    /* animation: bounce 2s infinite; */
+    animation: bounce 2s;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+    .thirdFly {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+    .app__header-h1 img {
+        width: 70%;
+    }
+    .headerSubheading {
+        font-size: 27px;
+    }
+    .secondFly {
+        right: 0%;
+        text-align: center;
+    }
+    .secondFly img {
+        max-width: 85%;
+    }
+    .app__aboutus-content_about.griffinNfts a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
+
+
+/* fix background-attachment on iOS devices */
+@media (hover: none) {
+    .app__header {
+        background-attachment: initial;
+    }
+ }

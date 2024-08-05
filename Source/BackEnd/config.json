@@ -1,0 +1,20 @@
+{
+    "HOST"     : "127.0.0.1",
+    "USER"     : "root",
+    "PASSWORD" : "",
+    "DATABASE" : "griffin",
+    "PORT": 9000,
+    "RPC_URL": "https://api.avax-test.network/ext/bc/C/rpc",
+    "GRIFFIN_ADDRESS": "0xCC90e647b056a0f9e2f291E2C48224169D67E61A",
+    "REWARD_ADDRESS": "0xB3cDf9482B7aFaEF502DD9cF84f5e9F3AbC2A723",
+    "CLAIM_PERIOD_DAY": 1, 
+    "GRIFFIN_PERIOD_DAY": 7,
+    "CANDIDATE_NUM": 5,
+    "START_NFT_COUNT": 6,
+    
+    "PRIVATE_KEY": "0x01c39bf0fc81c8c6719105e786eedf29f4fd8d06647ddcc2e54ce977230cf0a6",    
+    "DURATION": 64800,
+    "SCAN_NFT_INTERVAL": 2,
+    "SERVER_PORT": 9000
+}
+

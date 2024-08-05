@@ -1,0 +1,132 @@
+.mintPage {
+    min-height:800px;
+    background-color: var(--color-black);
+    background-image: url('/src/assets/griffin-header-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+}
+.mintHolder {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.griffinCreature img {
+    max-width: 600px;
+    margin-top: -50px;
+}
+.minting {
+    margin-bottom: 100px;
+}
+.minting h1 {
+    font-family: 'MedievalSharp', sans-serif;
+    color: #b5722d;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.mintCounter {
+    color: white;
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.mintCost {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-top: 55px;
+}
+.mintCost span {
+    color: #c73333;
+}
+.mintMax {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.mintSelect {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.selectSize {
+    font-size: 50px;
+    background: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 80px;
+}
+.selectSize:hover {
+    background: #b5722d;
+}
+.mintAmount {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.mintAmount span {
+    color: #c73333;
+    font-size: 40px;
+    vertical-align: middle;
+}
+.onMint {
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #mint .griffinCreature img {
+        width: 100%;
+        margin-top: 0;
+    }
+    .mintHolder {
+        justify-content: space-around;
+    }
+    .griffinCreature {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .mintHolder {
+        flex-direction: column;
+        padding-bottom: 200px;
+    }
+    .minting {
+        padding: 0 10%;
+    }
+    .griffinCreature {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+.minting h1, .mintCounter {
+    font-size: 40px;
+}
+.mintCost {
+    font-size: 24px;
+}
+.mintMax {
+    font-size: 14px;
+}
+}

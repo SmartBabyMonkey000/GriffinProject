@@ -1,0 +1,86 @@
+.winners {
+    flex-direction: column;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: url('/src/assets/griffin-header-bg-top-2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.griffinCrown {
+    text-align: center;
+    margin-top: -50px;
+}
+.griffinCrown img {
+    max-width: 130px;
+}
+.winnersHolder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.winnersContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.winnerHolder {
+    display: flex;
+    color: white;
+    background: #3d3d3d;
+    padding: 20px;
+    margin-bottom: 30px;
+    grid-gap: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.winnerNum {
+    color: #b5722d;
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 30px;
+}
+.winInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.winners .flex__center {
+    align-items: flex-start;
+}
+.winnersSelect {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.nextLottery span {
+    background: #3d3d3d;
+    padding: 10px 20px;
+}
+
+.nextLottery {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 900px) {
+.griffinCrown {
+    margin-top: 0px;
+}
+.winnerHolder {
+    width: 90%;
+}
+.winInfo {
+    padding: 5px;
+    min-height: 255px;
+    text-align: center;
+}
+}

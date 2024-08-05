@@ -1,0 +1,50 @@
+.disclaimerPage {
+    min-height:800px;
+    background-color: var(--color-black);
+    background-image: url('/src/assets/griffin-header-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    padding-bottom: 400px;
+}
+.disclaimerHolder {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    max-width: 90%;
+    margin: 0 auto;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:22px;
+    line-height: 30px;
+}
+.disclaimerHolder p {
+    margin-bottom:20px;
+}
+
+.disclaim {
+    margin-bottom: 100px;
+    width: 90%;
+    background: #2d2d2d;
+    padding: 3%;
+}
+
+.disclaimerPage .griffinCreature img {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+.disclaimerHolder {
+    flex-wrap: wrap;
+}
+.disclaim {
+    width: 100%;
+}
+.disclaimerPage .griffinCreature {
+    width: 100%;
+    text-align: center;
+}
+}

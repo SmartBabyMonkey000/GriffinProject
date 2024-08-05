@@ -1,0 +1,97 @@
+.app__footer {
+    flex-direction: column;
+    padding-top: 0%;
+    padding-bottom: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-image: url('/src/assets/griffin-footer-bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    min-height: 800px;
+}
+.footerLogo {
+    text-align: center;
+}
+.footerLogo img {
+    margin-top: -170px;
+    max-width: 290px;
+}
+.footerMessage {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    font-size: 28px;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footerNav {
+    background: #0000008f;
+    padding: 15px 30px;
+    max-width: 1000px;
+    margin: 80px auto 20px auto;
+}
+h5.fcontactTitle {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    letter-spacing:1px;
+}
+.footerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContact a .fa-twitter {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footerContact a .fa-medium {
+    margin-right: 20px;
+}
+.footerContact a {
+    font-size: 40px;
+}
+
+.footer__copyright {
+    text-align: center;
+}
+.footerPhoenixLogo img {
+    max-width: 515px;
+    width: 100%;
+}
+.footerPhoenixLogo {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 6%;
+}
+
+
+@media screen and (max-width: 2000px) {
+.app__footer .app__navbar-links {
+    display: flex;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .app__footer .app__navbar-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .app__footer .app__navbar-links li {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+.app__footer {
+    background-position: left;
+}
+.app__footer .socialHead {
+    display: flex;
+}
+}
